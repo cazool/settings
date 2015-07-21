@@ -17,17 +17,18 @@ MainMenu::MainMenu(QGraphicsView *view)
 
 void MainMenu::createMenu()
 {
-    m_displayItem = new MenuItem(getScene(),"../myScene/resources/icons/display.png","显示");
-    m_accountItem = new MenuItem(getScene(),"../myScene/resources/icons/account.png","账户");
-    m_networkItem = new MenuItem(getScene(),"../myScene/resources/icons/network.png","网络");
-    m_settingItem = new MenuItem(getScene(),"../myScene/resources/icons/settings.png","设置");
-    m_powerItem = new MenuItem(getScene(),"../myScene/resources/icons/power.png","电源");
+    m_displayItem = new MenuItem(getScene(),"./resources/icons/display.png","显示");
+    m_accountItem = new MenuItem(getScene(),"./resources/icons/account.png","账户");
+    m_networkItem = new MenuItem(getScene(),"./resources/icons/network.png","网络");
+    m_settingItem = new MenuItem(getScene(),"./resources/icons/settings.png","设置");
+    m_powerItem = new MenuItem(getScene(),"./resources/icons/power.png","电源");
     
-    m_personalizationItem = new MenuItem(getScene(),"../myScene/resources/icons/personalization.png","个性化");
-    m_volumeItem = new MenuItem(getScene(),"../myScene/resources/icons/volume.png","声音");;
-    m_dateItem = new MenuItem(getScene(),"../myScene/resources/icons/date.png","日期和时间");;
-    m_infoItem = new MenuItem(getScene(),"../myScene/resources/icons/info.png","信息");;
+    m_personalizationItem = new MenuItem(getScene(),"./resources/icons/personalization.png","个性化");
+    m_volumeItem = new MenuItem(getScene(),"./resources/icons/volume.png","声音");;
+    m_dateItem = new MenuItem(getScene(),"./resources/icons/date.png","日期和时间");;
+    m_infoItem = new MenuItem(getScene(),"./resources/icons/info.png","信息");;
     
+
     addMenu(m_displayItem);
     addMenu(m_accountItem);
     addMenu(m_networkItem);

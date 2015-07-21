@@ -37,51 +37,51 @@
 #include "menuitem.h"
 
 const char *pressIcon[50] = {
-    "../myScene/resources/icons/account_press.png",
-    "../myScene/resources/icons/display_press.png",
-    "../myScene/resources/icons/default_applications_press.png",
-    "../myScene/resources/icons/personalization_press.png",
-    "../myScene/resources/icons/network_press.png",
-    "../myScene/resources/icons/sound_press.png",
-    "../myScene/resources/icons/date_time_press.png",
-    "../myScene/resources/icons/power_press.png",
-    "../myScene/resources/icons/mouse_touchpad_press.png",
-    "../myScene/resources/icons/keyboard_press.png",
-    "../myScene/resources/icons/shortcuts_press.png",
-    "../myScene/resources/icons/grub_press.png",
-    "../myScene/resources/icons/system_info_press.png"
+    "../resources/icons/account_press.png",
+    "../resources/icons/display_press.png",
+    "../resources/icons/default_applications_press.png",
+    "../resources/icons/personalization_press.png",
+    "../resources/icons/network_press.png",
+    "../resources/icons/sound_press.png",
+    "../resources/icons/date_time_press.png",
+    "../resources/icons/power_press.png",
+    "../resources/icons/mouse_touchpad_press.png",
+    "../resources/icons/keyboard_press.png",
+    "../resources/icons/shortcuts_press.png",
+    "../resources/icons/grub_press.png",
+    "../resources/icons/system_info_press.png"
 };
 
 const char *releaseIcon[50] = {
-    "../myScene/resources/icons/account_normal.png",
-    "../myScene/resources/icons/display_normal.png",
-    "../myScene/resources/icons/default_applications_normal.png",
-    "../myScene/resources/icons/personalization_normal.png",
-    "../myScene/resources/icons/network_normal.png",
-    "../myScene/resources/icons/sound_normal.png",
-    "../myScene/resources/icons/date_time_normal.png",
-    "../myScene/resources/icons/power_normal.png",
-    "../myScene/resources/icons/mouse_touchpad_normal.png",
-    "../myScene/resources/icons/keyboard_normal.png",
-    "../myScene/resources/icons/shortcuts_normal.png",
-    "../myScene/resources/icons/grub_normal.png",
-    "../myScene/resources/icons/system_info_normal.png"
+    "../resources/icons/account_normal.png",
+    "../resources/icons/display_normal.png",
+    "../resources/icons/default_applications_normal.png",
+    "../resources/icons/personalization_normal.png",
+    "../resources/icons/network_normal.png",
+    "../resources/icons/sound_normal.png",
+    "../resources/icons/date_time_normal.png",
+    "../resources/icons/power_normal.png",
+    "../resources/icons/mouse_touchpad_normal.png",
+    "../resources/icons/keyboard_normal.png",
+    "../resources/icons/shortcuts_normal.png",
+    "../resources/icons/grub_normal.png",
+    "../resources/icons/system_info_normal.png"
 };
 
 const char *hoverIcon[50] = {
-    "../myScene/resources/icons/account_hover.png",
-    "../myScene/resources/icons/display_hover.png",
-    "../myScene/resources/icons/default_applications_hover.png",
-    "../myScene/resources/icons/personalization_hover.png",
-    "../myScene/resources/icons/network_hover.png",
-    "../myScene/resources/icons/sound_hover.png",
-    "../myScene/resources/icons/date_time_hover.png",
-    "../myScene/resources/icons/power_hover.png",
-    "../myScene/resources/icons/mouse_touchpad_hover.png",
-    "../myScene/resources/icons/keyboard_hover.png",
-    "../myScene/resources/icons/shortcuts_hover.png",
-    "../myScene/resources/icons/grub_hover.png",
-    "../myScene/resources/icons/system_info_hover.png"
+    "../resources/icons/account_hover.png",
+    "../resources/icons/display_hover.png",
+    "../resources/icons/default_applications_hover.png",
+    "../resources/icons/personalization_hover.png",
+    "../resources/icons/network_hover.png",
+    "../resources/icons/sound_hover.png",
+    "../resources/icons/date_time_hover.png",
+    "../resources/icons/power_hover.png",
+    "../resources/icons/mouse_touchpad_hover.png",
+    "../resources/icons/keyboard_hover.png",
+    "../resources/icons/shortcuts_hover.png",
+    "../resources/icons/grub_hover.png",
+    "../resources/icons/system_info_hover.png"
 };
 
 int main(int argc,char* argv[ ])

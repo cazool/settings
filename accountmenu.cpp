@@ -21,7 +21,7 @@ void AccountMenu::createMenu()
 {
     m_returnToMainMenu = new MenuItem(getScene(),"返回主页");
     addMenu(m_returnToMainMenu);        
-    m_addButton = new MenuItem(getScene(),"../myScene/resources/icons/add.png","添加账户");
+    m_addButton = new MenuItem(getScene(),"./resources/icons/add.png","添加账户");
     addMenu(m_addButton);
     
     m_addAccount = new AddAccount(getView(),this);

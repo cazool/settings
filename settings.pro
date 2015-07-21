@@ -1,5 +1,12 @@
+
 QT += widgets
 QT += core
+
+unix|win32: LIBS += -lGL
+
+TARGET = desktop
+TEMPLATE = app
+
 SOURCES += \
     main.cpp \
     DButton.cpp \
@@ -32,4 +39,6 @@ HEADERS += \
     menucontroller.h \
     mainmenu.h \
     addaccount.h
+
+
 

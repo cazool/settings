@@ -44,13 +44,12 @@ void AddAccount::createMenu()
    m_userRadio = new QRadioButton("普通用户");
    m_userRadio->resize(90,20);
    
-   //m_adminRadio->connect(m_adminRadio,SIGNAL(),m_userRadio,SLOT(setChecked(bool)));
-   
    m_accountType->addWidget(m_adminRadio,MenuItem::center);
    m_accountType->addWidget(m_userRadio,MenuItem::right);
    
    addMenu(m_autoLogin); 
    addMenu(m_ok,5,0,2);
+   //TODO:sub button
    addMenu(m_cancel,5,1,2);
 }
 

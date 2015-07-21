@@ -74,6 +74,7 @@ private:
     bool m_paintEnable;
     
     MenuItem::Alignment m_align;
+
 };
 
 #endif // MENUITEM_H
